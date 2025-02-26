@@ -1,35 +1,33 @@
-/* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
-
-/* temp background color */
 body {
-    background: lightgray;
-}
-  
-/* vertical and horizontal centering */
-body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
-}
-
-/* containers */
-main {
   display: flex;
+  flex-direction: column; /* Stack h3 above the SVGs */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: oldlace;
 }
 
-/* cptionally changef */
-main section {
-  height: 100px;
-  width: 100px;
+h3 {
+  margin-bottom: 20px;
+  margin-right: 260px;
+  font-size: 1.2rem;
 }
 
-/* scale SVG to fit container */
+.svg-container {
+  position: relative; 
+  display: inline-block; 
+  padding: 50px; 
+  display: flex;
+  justify-content: center; 
+  gap: 100px;
+  background: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 svg {
-  width: 100%; /* or any specific size */
-  height: auto;
-  /* Center and fit */
-  preserveAspectRatio: xMidYMid meet;
+  transform: scale(5);
+}
+
+.arrow {
+  transform-origin: 50% 100%;
 }
