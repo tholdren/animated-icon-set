@@ -7,25 +7,24 @@ body {
   background: oldlace;
 }
 
-h3 {
+h1 {
   margin-bottom: 20px;
-  margin-right: 260px;
-  font-size: 1.2rem;
+  margin-right: 450px;
 }
 
 .svg-container {
   position: relative; 
   display: inline-block; 
-  padding: 50px; 
+  padding: 100px; 
   display: flex;
   justify-content: center; 
-  gap: 100px;
+  gap: 200px;
   background: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 svg {
-  transform: scale(5);
+  transform: scale(8);
 }
 
 .arrow {
